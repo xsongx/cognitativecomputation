@@ -1,0 +1,35 @@
+Dear Aishwarya Gokuldas, 
+Please find attached a revised version of our manuscript “Resonance Elicits Diffusion: Modeling Subjectivity for Retweeting Behavior Analysis”, which we would like to resubmit for publication as a paper included in the Special Issue on Sentic Computing of Cognitive Computation.
+
+Your comments and those of the reviewers were highly insightful and enabled us to greatly improve the quality of our manuscript. In the following pages are our point-by-point responses to each of the comments.
+We hope that the revisions in the manuscript and our accompanying responses will be sufficient to make our manuscript suitable for publication.
+We shall look forward to hearing from you at your earliest convenience.
+Yours sincerely,
+Songxian Xie.
+
+
+Responses to the comments of Reviewer #1:
+1.This paper is revised based on the previous suggestions. It looks better than the old version.
+Response: Thanks.
+2.Fig.5 should be added with some notation on the histogram.
+Response: We have added fig.5 with opinion polarity notation on the histogram.
+3. For the fig. 4 and fig.6, I recommend the author to use double column as fig.5.
+Response: We have changed the fig. 4 and fig.6 style by using double column as fig.5 in the revision.
+
+Responses to the comments of Reviewer #2:
+1.The authors integrated most of my concerns. As for the 5-fold cross-validation I am *not* satisfied - they "agree" to my points but don't change anything.
+Response: Sorry for the reponse that we made were more ambiguous than intended, and we should make it clearer.
+2.No statement is made on how it is ok not to have a development partition.
+Response: A development partition is often used to tune the parameters of a model. In our model, two parameters need to be optimized: one is the the coefficient λ in equation (7), which is tuned in section 4.2 and set to 0.5; the other is the number of topics of LDA model, which is tuned in section 4.3.1 and fixed as 60. Therefore, in our performance evaluation, we choose a 5-fold cross-validation and not to have a development partition.
+3.As for releasing the folds, I think there would not even have been a "Twitter has to agree to it" issue if one had chosen leave subject groups out evaluation, but...
+Response: We apologize for the misunderstanding of publishing all our dataset, and we will pack our train and test data and leave subject groups out for evaluation as suggested.
+4.I understand my role also as advisor to turn the article into best possible quality - it's up to the authors to make the most out of it, so on my end it's an accept now.
+Response: Thanks a lot.
+
+Responses to the Editorial comments:
+1.In the introduction, "Section 5" is capitalized while other sections are not.
+Response: Thanks. We haved fixed the spelling error.
+2.References should be double-checked as some have missing or incorrect compilation details, e.g., #6.
+Response: Thanks. All references have been double-checked and fixed.
+3.The paper can be accepted after authors fix the above-mentioned final issues. However, it might be published as regular paper rather than Special Issue paper as it does not really use any sentic computing tool or technique. If authors are willing to have their paper included in the Special Issue (which we recommend), they should consider using SenticNet 3 in stead of (or, at the very least, in support of) SentiStrength.
+Response: We have integrated the work of SenticNet 3 into our manuscript in section 2 and section 3.3.3, and regarded it as our future work in the conclusion.

@@ -1,0 +1,24 @@
+﻿COMMENTS FOR THE AUTHOR:
+
+
+********
+
+Reviewer #1: This paper proposes a subjectivity model to combine both the topics and opinions to model subjectivity. The abstract seems to be not concise enough for summary. I suggest to keep the most important information about the proposed method and move some content to the section 1. The section 1 and 2 overlap in some work. It should be better if combine two of them together. I am not clear about the definition 2, which appears to use the same model in definition 1, but different parameters. The paper did not mention how to get eq. 3. Does this equation will adapt to other application of opinion analysis. The subjectivity model in algorithm 1 is based on LDA. Is there any original improvement for the algorithm? How does the paper validate the effectiveness of the proposed algorithm. More discuss should be concentrated on this algorithm. In the section 3.4, the author used the cosine similarity metric. More other similarity metrics are expected to compared in the performance evaluation. What is the difference of star(*) and dagger in the table 2? For the fig.5, the author should give more explanation for the meaning of different colors.
+
+
+Reviewer #2: Nice paper and interesting thesis considering retweeting and subjectivity.
+I consider the approach as sufficiently novel and the results of interest.
+
+I have mainly two minor points to raise:
+
+I) I would like to know more about the significance test method and quantitative significance analysis in more detail.
+
+II) I have to admit that I consider 5-fold cross-validation as unlucky in two respects: 1) reproducibility is limited, so the folds should be made available for download.
+2) there is usually no development part.
+
+Other than that, I am not sure if the DOI is really needed for each reference and some images are really (too?) small too read.
+
+Nice work.
+
+
+Reviewer #3: The manuscript is well-written and is centered on an interesting topic. However, it is a bit lacking on clarity and presentation. Some bad English constructions, mix of British and American English, grammar mistakes, and misuse of articles: the manuscript needs to be proofread by a native English speaker. Authors are advised to view and integrate more recent approaches to opinion mining and natural language processing, e.g., see recent issues of Cognitive Computation,  IEEE Intelligent Systems on concept-level sentiment analysis (vol. 28, no. 2 and 3) and IEEE Computational Intelligence Magazine on noetic NLP (vol. 9, no. 1 and 2).

@@ -1,0 +1,39 @@
+Dear Amir Hussain,
+Your comments and those of the reviewers were highly insightful and enabled us to greatly improve the quality of our manuscript. In the following pages are our point-by-point responses to each of the comments.
+We hope that the revisions in the manuscript and our accompanying responses will be sufficient to make our manuscript suitable for publication in Cognitive Computation.
+We shall look forward to hearing from you at your earliest convenience.
+Yours sincerely,
+Songxian Xie.
+
+
+Responses to the comments of Reviewer #1:
+1. The abstract seems to be not concise enough for summary. I suggest to keep the most important information about the proposed method and move some content to the section 1.
+Response: This is an excellent point. We have rewrited the abstract and try to make it concise by only keeping such information as the problem we study, our proposed method and the effect of our method.
+2. The section 1 and 2 overlap in some work. It should be better if combine two of them together.
+Response: We agree that there are some works cited in both section 1 and 2. Section 1 is an overall introduction to the problem, and our mothed. The works we cite are used to support the claims we have made. Section 2 describe the works related to our method, so we give an detail introduction to every work we cite. The works overlapped take different effect in two section, and we have tried to make it more clear in the revision.
+3. I am not clear about the definition 2, which appears to use the same model in definition 1, but different parameters.
+Response: Definition 2 is the subjectivity model of a tweet, as we need to calculate the subjectivity similarity between the tweet and a user for retweeting analysis. It takes the same form of subjectivity model of a user, but different parameters. We have made it clear and explained the parameters of it in the revision.
+4. The paper did not mention how to get eq. 3. Does this equation will adapt to other application of opinion analysis.
+Response: Eq.3 is the transforming of the sentiment values of SentiStrength. SentiStrength output two sentiment values: one (within [1,5]) represents positive sentiment value, the other (within [-5,-1]) represents negative sentiment value. However, in order to use such output of SentiStrength in our subjectivity model, we need to transform it into one single value to represent sentiment, so we design eq.3. It is only used in our method, and need not to adapt to other application of opinion analysis.
+5. The subjectivity model in algorithm 1 is based on LDA. Is there any original improvement for the algorithm? How does the paper validate the effectiveness of the proposed algorithm. More discuss should be concentrated on this algorithm.
+Response: We agree that we should put more discuss on algorithm 1. In algorithm 1, LDA is trained on users' historical tweets and then used to find topics for each user and tweet. As we dicuss in section 3.3.1, LDA is more general in the concept of topic and more suitable for tweets to overcome the data sparsity. The effectiveness is validated qualitatively and quantitatively in the experiment by combining it with the retweeting analysis.
+6. In the section 3.4, the author used the cosine similarity metric. More other similarity metrics are expected to compared in the performance evaluation.
+Response: Great points. We have clarified why we use the cosine similarity metric in our mothod in section 3.4 in the revision.
+7. What is the difference of star(*) and dagger in the table 2?
+Response: Star(*) represents the model that outperforms the baseline significantly with a t-test (p < 0.05). Dagger represents the model that outperforms the LUO's method significantly with a t-test (p < 0.05).
+8. For the fig.5, the author should give more explanation for the meaning of different colors.
+Response: Thanks for the point. We have explained the meaning of the color in the caption of fig.5 in the revision.
+
+Responses to the comments of Reviewer #2:
+1. I would like to know more about the significance test method and quantitative significance analysis in more detail.
+Response: In our experiment we adopt a t-test with significance level 5% to determine whether the performance improvement is significant.
+2. I have to admit that I consider 5-fold cross-validation as unlucky in two respects: 1) reproducibility is limited, so the folds should be made available for download.2) there is usually no development part.
+Response: We agree to the two points. As for reproducibility, as per request from Twitter, the folds can not be available for downloading publicly, but we will provide to those who require them for research. 
+3. Other than that, I am not sure if the DOI is really needed for each reference and some images are really (too?) small too read.
+Response: Thanks. We have removed the DOI for each reference, and adjusted the images in the revision.
+
+Responses to the comments of Reviewer #3:
+1. The manuscript is well-written and is centered on an interesting topic. However, it is a bit lacking on clarity and presentation. Some bad English constructions, mix of British and American English, grammar mistakes, and misuse of articles: the manuscript needs to be proofread by a native English speaker.
+Response: Thanks a lot. We have tried to correct the errors and asked a native English speaker to proofread the manuscript during the revision.
+2. Authors are advised to view and integrate more recent approaches to opinion mining and natural language processing, e.g., see recent issues of Cognitive Computation,  IEEE Intelligent Systems on concept-level sentiment analysis (vol. 28, no. 2 and 3) and IEEE Computational Intelligence Magazine on noetic NLP (vol. 9, no. 1 and 2).
+Response: Thanks. We have gone over the recommended issues and integrate a few recent works of opinion mining and natural language processing into our work. 
